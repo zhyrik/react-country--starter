@@ -1,0 +1,5 @@
+//! cleanup after load content
+
+//! important save ref for destroy cleanup
+
+//! problem with rendering. Always rerender after perent render. I think it's problem with useFilterData hook
