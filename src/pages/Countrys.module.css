@@ -1,0 +1,21 @@
+.grid{
+    display: grid;
+    grid-template-columns: var(--product-grid);
+    grid-gap: var(--size-gap)
+}
+
+.card:hover{
+    background: var(--black-fade);
+}
+.filters{
+    display: flex;
+    justify-content: space-between;
+    margin: -20px 0 40px 0;
+}
+@media screen and (max-width: 992px) {
+    .filters{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

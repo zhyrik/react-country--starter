@@ -1,0 +1,9 @@
+.button{
+    color: var(--primary);
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: var(--transiton);
+}
+.button:hover{
+    background-color: var(--black-fade);
+}

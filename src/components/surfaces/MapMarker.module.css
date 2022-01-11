@@ -1,0 +1,15 @@
+.marker{
+    font-size: 40px;
+    color: var(--error);
+    position: relative;
+    opacity: 0.7;
+    transition: var(--transiton);
+}
+.marker:hover{
+    font-size: 60px;
+}
+.marker svg{
+    position: absolute;
+    bottom: 10px;
+    transform: translate(-50%);
+}

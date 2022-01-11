@@ -1,0 +1,21 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+.img{
+    max-width: 400px;
+    border: 1px solid black;
+}
+.right{
+    
+}
+@media screen and (max-width: 992px) {
+    .card{
+        flex-direction: column;
+    }
+    .img{
+        max-width: 100%;
+    }
+}

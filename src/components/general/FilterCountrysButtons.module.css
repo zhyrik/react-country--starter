@@ -1,0 +1,32 @@
+.wrapper{
+    position: relative;
+}
+.icon{
+    margin-right: 20px;
+    position: absolute;
+    display: none;
+    font-size: var(--text-3xl);
+    color: var(--primary);
+    padding: 5px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.icon:hover{
+    background: var(--black-fade);
+}
+.buttons{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    display: block;
+}
+@media screen and (max-width: 992px){
+    .buttons{
+        flex-direction: column;
+        display: none;
+    }
+    .icon{
+        position: relative;
+        display: block;
+    }
+}

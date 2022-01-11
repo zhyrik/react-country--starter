@@ -1,0 +1,9 @@
+.h1{
+    text-align: center;
+    font-size: var(--text-3xl);
+    font-weight: var(--bold);
+    padding-bottom: 1vh;
+}
+.h1::first-letter{
+    text-transform: uppercase;
+}

@@ -1,0 +1,5 @@
+.h3{
+    text-align: center;
+    font-size: var(--text-lg);
+    font-weight: var(--bold);
+}
